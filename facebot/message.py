@@ -3,7 +3,7 @@ import logging
 try:
     from urllib.parse import urlencode
 except ImportError:
-    from urllib import urlencode
+    from urllib.parse import urlencode
 import re
 import time
 
